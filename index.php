@@ -21,7 +21,7 @@ $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, 
 $mail->Port = 995;                                    // TCP port to connect to
 
 $mail->setFrom($email, $name);
-$mail->addAddress('walter@africanaudioworks.co.za', 'Joe User');     // Add a recipient
+$mail->addAddress('walter@africanaudioworks.co.za', 'Walter User');     // Add a recipient
 $mail->addAddress('andile@africanaudioworks.co.za');               // Name is optional
 $mail->addReplyTo($email, 'Information');
 
